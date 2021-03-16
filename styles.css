@@ -1,18 +1,123 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-
-.container{
-    padding: 2rem 0 1rem 1rem;
     
 }
 
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    background:linear-gradient(120deg,#ada4c8, #320a90) ;
+    color: #ffff;
+    width: 100%;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+    height: 3rem;
+    
+    
+}
+
+.container{
+    margin: 5rem;
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+       
+    
+}
+img{
+    width: 25rem;
+    height: 25rem;
+}
+
+.container_interno{
+    
+    width: 20rem;
+    height: 25rem;
+    align-items: center;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(36, 33, 33);
+    text-align: center;
+    /* background:linear-gradient(120deg,#777d92, #1d2d58); */
+    background: #004481;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+
+    border: solid;
+    
+    border-radius: 8px;
+    
+    
+}
+
+
 input{
     margin: 0 0 1rem 0;
+    height: 25px;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 3px;
 }
+
+textarea{
+    
+    font-family: Inter;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+
 
 button{
     margin: 0 0 1rem 0;
+    background:linear-gradient(120deg,#9c95b3, #260e5d) ;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-family: Inter;
+    font-size: 20px;
+    border: solid;
+    outline: none;
+    background-size: 200%;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    
+}
+
+
+footer{
+   
+    background:linear-gradient(120deg,#ada4c8, #320a90) ;
+    display: flex;
+    gap: 1rem;
+   justify-content: center;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #ffff;
+    width: 100%;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+a{
+    ont-family: Inter;
+    font-weight: 400;
+    color: #ffff;
 }
