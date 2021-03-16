@@ -11,13 +11,14 @@ header{
     color: #ffff;
     width: 100%;
     text-align: center;
-    font-family: Inter;
+    align-items: center;
+    font-family: Archivo;
     font-weight: 400;
     height: 3rem;
 }
 
 .container{
-    margin: 5rem;
+    margin: 7rem;
     display: grid;
     display: flex;
     justify-content: center;
@@ -31,26 +32,31 @@ img{
 
 .container_interno{
     width: 20rem;
-    height: 25rem;
-    align-items: center;
+    height: 20rem;
+    
+    padding-top: 10px;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(36, 33, 33);
     text-align: center;
     background: #004481;
-    font-family: Inter;
+    font-family: Archivo;
     font-weight: 400;
     font-size: 25px;
     color: white;
     border: solid;
     border-radius: 8px;
 }
+label{
+    text-align: left;
+}
 
 input{
     margin: 0 0 1rem 0;
+    padding: 0 0 0 4px;
     height: 25px;
     font-size: 15px;
-    font-family: Inter;
+    font-family: Poppins;
     font-weight: bold;
     border-style: solid;
     border-radius: 3px;
@@ -58,10 +64,11 @@ input{
 
 textarea{
     
-    font-family: Inter;
+    font-family: Poppins;
     font-weight: bold;
     border-style: solid;
     border-radius: 3px;
+    block-size: 3;
 }
 
 
@@ -73,7 +80,7 @@ button{
     border-radius: 8px;
     color: white;
     font-weight: bold;
-    font-family: Inter;
+    font-family: Archivo;
     font-size: 20px;
     border: solid;
     outline: none;
@@ -97,7 +104,7 @@ footer{
     color: #ffff;
     width: 100%;
     text-align: center;
-    font-family: Inter;
+    font-family: Poppins;
     font-weight: 400;
 }
 
@@ -111,17 +118,28 @@ a{
 
 @media (max-width: 874px){
     .container{
-        margin: 3rem;
-              
+        margin: 1rem;
+        gap: 5px;
         display: flex;
         flex-direction: column;
-                
+              
+    }
+    img{
+      /* display: none; */
+      width: 10rem;
+    } 
+    header{
+        display: none;
     }
 
     footer{
         position: fixed;
         bottom:0;
         left:0;
+        font-size: 10px;
+        height: 55px;
+        /* display: flex; */
+        flex-direction: column;
     }
 }
 
