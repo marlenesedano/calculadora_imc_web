@@ -1,6 +1,5 @@
 function calculo(peso, altura) {
   let result;
-  let saida;
   if (altura > 100) {
     altura = altura / 100;
   }

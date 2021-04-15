@@ -10,6 +10,8 @@ header{
     background:linear-gradient(120deg,#ada4c8, #320a90) ;
     color: #ffff;
     width: 100%;
+    display: flex;
+    justify-content: center;
     text-align: center;
     align-items: center;
     font-family: Archivo;
@@ -32,14 +34,14 @@ img{
 
 .container_interno{
     width: 20rem;
-    height: 20rem;
+    height: 23rem;
     
     padding-top: 10px;
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(36, 33, 33);
+    border-color: rgb(7, 6, 6);
     text-align: center;
-    background: #004481;
+    background: #6f5cdd;
     font-family: Archivo;
     font-weight: 400;
     font-size: 25px;
@@ -47,15 +49,18 @@ img{
     border: solid;
     border-radius: 8px;
 }
-label{
-    text-align: left;
+.text{
+    display: flex;
+    text-align: justify;
+    margin-left: .8rem;
 }
 
 input{
     margin: 0 0 1rem 0;
     padding: 0 0 0 4px;
-    height: 25px;
+    height: 2rem;
     font-size: 15px;
+    width: 18rem;
     font-family: Poppins;
     font-weight: bold;
     border-style: solid;
